@@ -1,19 +1,19 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Berso",
+    "imageSrc": "projects/berso.jpg",
+    "description": "This is a mobile app I collaborated and developed for local businesses that serve as a review and recomendations platform to enhance visibility for small businesses",
+    "skills": ["React native","expo", "tailwind", "figma", "Node", "Express","MongoDB", "Mobile app development", "UI/UX design", "MERN stack","System Documentation"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/jaddis53/Berso.git"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "title": "Zewd Management System",
+    "imageSrc": "projects/sms.webp",
+    "description": "A student and employee management system custom built for a Zewd multimedia PLC/ Zewd Academy",
+    "skills": ["React",  "Node", "Express","MongoDB","Web app","Figma","Custom system","MERN stack", "System Documentation"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/internship-zewd/SMS-final.git"
   },
   {
     "title": "Project C",

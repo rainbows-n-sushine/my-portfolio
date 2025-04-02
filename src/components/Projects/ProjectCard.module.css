@@ -3,11 +3,21 @@
 .container {
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
+  border-radius: 15px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), 
+              box-shadow 0.4s ease, 
+              background 0.4s ease; /* Smooth transition */
+}
+
+/* Darkens the card on hover */
+.container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 25px 0 rgba(4, 21, 45, 0.8);
+  background: linear-gradient(180deg, #2e4b96 0%, #0c1d3e 100%); /* Darker shades */
 }
 
 .image {
