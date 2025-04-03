@@ -109,4 +109,10 @@
   .content {
     align-items: center;
   }
+  .heroImg {
+    width: 60%; /* You can adjust this width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; /* Adjust the margin to your preference */
+  }
 }
