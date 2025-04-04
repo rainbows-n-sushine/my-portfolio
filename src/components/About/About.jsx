@@ -14,13 +14,21 @@ export const About = () => {
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
+        <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/webAppIcon.png")} alt="Web app icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Web Developer</h3>
+              <p>
+              I'm a web developer that loves to work on both the frontend and the backend of a web app. I love building dynamic, scalable web applications and bringing ideas to life through code.
+                </p>
+            </div>
+          </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Mobile app developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                Im a mobile app developer that is x
               </p>
             </div>
           </li>

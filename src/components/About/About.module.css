@@ -56,6 +56,9 @@
   background-repeat: no-repeat;
   transition: 0.4s;
 }
+.aboutItem img{
+  margin: 25px;
+}
 
 .aboutItem:hover {
   background-size: 100% 100%;
