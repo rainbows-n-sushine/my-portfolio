@@ -8,10 +8,10 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
-        
-      </a>
+      <h1 className={styles.flower}>
+      <a className={styles.title} >🌻</a></h1>
       <div className={styles.menu}>
+      
         <img
           className={styles.menuBtn}
           src={
@@ -22,6 +22,7 @@ export const Navbar = () => {
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
+       
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
