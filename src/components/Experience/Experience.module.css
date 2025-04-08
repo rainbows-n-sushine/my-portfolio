@@ -9,10 +9,11 @@
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 62px;
 }
 
 .content {
@@ -23,17 +24,17 @@
 }
 
 .skills {
-  width: 45%;
+  width: 35%;
   display: flex;
   flex-wrap: wrap;
-  gap: 37px;
+  gap: 50px;
 }
 
 .skill {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 11px;
+  gap: 2px;
 }
 
 .skillImageContainer {
@@ -75,7 +76,7 @@
 }
 
 .historyItem img {
-  width: 50px;
+  width: auto;
 }
 
 .historyItemDetails {

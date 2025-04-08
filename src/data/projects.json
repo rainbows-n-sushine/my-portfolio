@@ -9,18 +9,18 @@
   },
   {
     "title": "Zewd Management System",
-    "imageSrc": "projects/sms.webp",
+    "imageSrc": "projects/zewd.jpg",
     "description": "A student and employee management system custom built for a Zewd multimedia PLC/ Zewd Academy",
     "skills": ["React",  "Node", "Express","MongoDB","Web app","Figma","Custom system","MERN stack", "System Documentation"],
     "demo": "https://www.example.com",
     "source": "https://github.com/internship-zewd/SMS-final.git"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
+    "title": "Merit Learning Management System",
+    "imageSrc": "projects/merit.svg",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://lms-zqht.onrender.com",
+    "source": "https://github.com/rainbows-n-sushine/LMS.git"
   }
 ]
