@@ -1,7 +1,7 @@
 // hooks/useFlyingHearts.js
 import { useState } from "react";
 
-export const useFlyingHearts = () => {
+export const UseFlyingHearts = () => {
   const [hearts, setHearts] = useState([]);
 
   const triggerHeart = (x, y) => {

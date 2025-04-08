@@ -2,10 +2,10 @@ import React from "react";
 import AnimatedText from "../Animation/AnimatedText";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
-import { useFlyingHearts } from "../../hooks/useFlyingHearts";
+import { UseFlyingHearts } from "../../hooks/UseFlyingHearts";
 
 export const Hero = () => {
-  const { hearts, triggerHeart } = useFlyingHearts();
+  const { hearts, triggerHeart } = UseFlyingHearts();
 
   const handleImageClick = (e) => {
     const rect = e.currentTarget.getBoundingClientRect();
