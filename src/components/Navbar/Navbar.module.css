@@ -1,25 +1,16 @@
 @import "../../vars.css";
 
 .navbar {
-  /* position: relative; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-bottom: 10px;
-
-  width:100%;
-  left:50px;
-  z-index: 2;
-  
-  /* margin: 0 10%; */
+  padding: 20px 10%;
+  width: 100%;
   position: sticky;
-  top:0; 
-  z-index: 100; 
-  background-color: rgba(1, 1, 41,0.2);
-  backdrop-filter: blur(2px)
-
-
+  top: 0;
+  z-index: 100;
+  background-color: rgba(1, 1, 41, 0.2);
+  backdrop-filter: blur(2px);
 }
 
 .title {
@@ -27,54 +18,35 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
-  margin-left:30px;
- 
+  margin-left: 0;
 }
 
-
-.menuBtn {
-  
-  display: none;
-  margin-right:2px;
-  margin-top:5px;
-  width:50%;
-  display: block;
-  cursor: pointer;
+.flower {
+  font-size: 35px;
+  margin-top: -15px;
 }
 
 .menu {
   display: flex;
-  align-items:flex-start;
+  align-items: center;
   justify-content: space-between;
-  margin-top:-10px;
-  margin-right: 100px;
-}
-
-.flower{
-  justify-content: flex-start;
-  font-size: 35px;
-  margin-top: -15px;
-  position: sticky;
-  top: 10; 
-  z-index: 100; 
-  width:auto;
-  display:flex;
-
-  
 }
 
 .menuItems {
-  position: sticky;
   display: flex;
   gap: 40px;
   list-style: none;
-  
 }
 
 .menuItems a {
   font-size: 20px;
   color: var(--color-text);
   text-decoration: none;
+}
+
+.menuBtn {
+  display: none;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 830px) {
@@ -85,15 +57,14 @@
 
   .menu {
     position: absolute;
-    right: 0;
-    margin-right: 10%;
+    top: 60px;
+    right: 10%;
     flex-direction: column;
     align-items: flex-end;
     gap: 11px;
     z-index: 3;
-    width:25%
+    width: 25%;
   }
-
 
   .menuItems {
     display: none;
@@ -101,24 +72,18 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
+    background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
     padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
   }
+
   .menuBtn {
-  
-  display: none;
-  margin-right:2px;
-  margin-top:5px;
-  width:30%;
-  display: block;
-  cursor: pointer;
-}
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top:-45px;
+    margin-right: 10px;
+  }
 
   .menuOpen {
     display: flex;
