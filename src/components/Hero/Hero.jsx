@@ -19,7 +19,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1>
           <AnimatedText
-            text="Hello, I'm Jalal Addisu"
+            text="Hi, I'm Jalal"
             className={styles.title}
           />
         </h1>
@@ -40,6 +40,10 @@ export const Hero = () => {
           alt="Hero image of me"
           className={styles.heroImg}
         />
+
+         {/* Hover text */}
+    <span className={styles.hoverText}>Click me</span>
+    
         {hearts.map((heart) => (
           <span
             key={heart.id}

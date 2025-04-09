@@ -1,8 +1,8 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
+    "role": "Software Developer",
+    "organisation": "Merit Academy",
+    "startDate": "",
     "endDate": "Present",
     "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
     "imageSrc": "history/merit.png"
