@@ -17,6 +17,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom:30px;
 }
 
 .content {
@@ -37,7 +38,7 @@
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 5px;
 }
 
 .aboutItem {
