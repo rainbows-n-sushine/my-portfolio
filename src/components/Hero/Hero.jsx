@@ -35,6 +35,7 @@ export const Hero = () => {
 
       {/* Wrap only the image for hearts but preserve original layout */}
       <div className={styles.imageWrapper} onClick={handleImageClick}>
+      <span className={styles.hoverText}>Click me</span>
         <img
           src={getImageUrl("hero/heroImage.jpg")}
           alt="Hero image of me"
@@ -42,8 +43,8 @@ export const Hero = () => {
         />
 
          {/* Hover text */}
-    <span className={styles.hoverText}>Click me</span>
-    
+    {/* <span className={styles.hoverText}>Click me</span> */}
+
         {hearts.map((heart) => (
           <span
             key={heart.id}
