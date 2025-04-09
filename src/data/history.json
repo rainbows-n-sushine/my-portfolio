@@ -5,25 +5,25 @@
     "startDate": "Sept, 2022",
     "endDate": "Present",
     "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
+    "imageSrc": "history/merit.png"
   },
   {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
+    "role": "Web developer",
+    "organisation": "Arc Digital",
     "startDate": "Aug, 2021",
     "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
+    "experiences": ["Worked on MERN", "Developed their website"],
+    "imageSrc": "history/arcDigital.png"
   },
   {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
+    "role": "Software Engineer Intern",
+    "organisation": "Zewd Academy",
     "startDate": "Apr, 2020",
     "endDate": "Jun, 2020",
     "experiences": [
       "Worked on component library",
       "Helped create UI components"
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "history/zewd.png"
   }
 ]

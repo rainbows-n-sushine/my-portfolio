@@ -57,7 +57,7 @@
   transition: 0.4s;
 }
 .aboutItem img{
-  margin: 12px;
+  margin: 12px 20px;
 }
 
 .aboutItem:hover {
@@ -67,10 +67,12 @@
 .aboutItem h3 {
   font-size: 20px;
   font-weight: 600;
+  margin-bottom:7px;
 }
 
 .aboutItem p {
   font-size: 15px;
+  
 }
 
 @media screen and (max-width: 830px) {

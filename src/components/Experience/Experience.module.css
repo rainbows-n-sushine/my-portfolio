@@ -75,8 +75,11 @@
   padding: 24px;
 }
 
-.historyItem img {
-  width: auto;
+.historyItem img { 
+  width:5%;
+  height:auto;
+
+
 }
 
 .historyItemDetails {
@@ -84,19 +87,22 @@
 }
 
 .historyItemDetails h3 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
 }
 
 .historyItemDetails p {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
+}
+.historyItemDetails li div{
+  margin-left:20px;
 }
 
 .historyItemDetails ul {
   margin-top: 6px;
   list-style-position: inside;
-  font-size: 25px;
+  font-size: 15px;
   list-style-type: disc;
   margin-left: 17px;
 }

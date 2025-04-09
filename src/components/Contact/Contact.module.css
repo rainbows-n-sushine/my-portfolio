@@ -65,24 +65,81 @@
     justify-content: flex-start;
     flex-direction: column;
   }
+  .text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-left:10%;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .text p {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-left:10%;
+    margin-top: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
 
   .links {
     align-items: left;
-    margin-left:30px;
-    margin-top:20px;
+    margin-left:15%;
+    margin-top:30px;
 
   }
   .link{
     justify-content: space-around;
-    gap:2em;
+    gap:1em;
 
   }
 
-  /* ul{
-    display:flex;
-    align-items:left;
-    justify-content: left;
 
-  
-   }  */
+}
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.text,
+.link {
+  opacity: 0;
+}
+
+/* Animation trigger classes */
+.slideInLeft {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.slideInRight {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+/* Optional staggered delays for links */
+.link:nth-child(1).slideInRight {
+  animation-delay: 0.2s;
+}
+.link:nth-child(2).slideInRight {
+  animation-delay: 0.4s;
+}
+.link:nth-child(3).slideInRight {
+  animation-delay: 0.6s;
 }
