@@ -88,15 +88,21 @@
 
 .historyItemDetails h3 {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px 0px;
 }
 
 .historyItemDetails p {
   font-size: 15px;
   font-weight: 300;
+  margin-top:0px;
+  margin-bottom:20px;
+  
 }
-.historyItemDetails li div{
+.historyItemDetails li{
   margin-left:20px;
+  margin:10px 0px;
 }
 
 .historyItemDetails ul {
