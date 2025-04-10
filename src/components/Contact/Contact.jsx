@@ -52,19 +52,29 @@ export const Contact = () => {
             alt: "Email icon",
             text: "jayaddisu@gmail.com",
             href: "mailto:jayaddisu@gmail.com",
+          },{
+            icon: "contact/emailIcon.png",
+            alt: "Email icon",
+            text: "jalaladdisu@gmail.com",
+            href: "mailto:jalaladdisu@gmail.com",
           },
           {
             icon: "contact/linkedinIcon.png",
             alt: "LinkedIn icon",
-            text: "linkedin.com/jalal-geleta",
-            href: "https://www.linkedin.com/jalal-geleta",
+            text: "linkedin.com/in/jalal-geleta",
+            href: "https://www.linkedin.com/in/jalal-geleta/",
           },
           {
             icon: "contact/githubIcon.png",
             alt: "Github icon",
             text: "github.com/jaddis53",
-            href: "https://www.github.com/jaddis53",
-          },
+            href: "https://github.com/jaddis53",
+          }, {
+            icon: "contact/githubIcon.png",
+            alt: "Github icon",
+            text: "github.com/rainbows-n-sunshine",
+            href: "https://github.com/rainbows-n-sushine",
+          }
         ].map((item, index) => (
           <li
             key={index}
@@ -72,7 +82,7 @@ export const Contact = () => {
             className={styles.link}
           >
             <img src={getImageUrl(item.icon)} alt={item.alt} />
-            <a href={item.href}>{item.text}</a>
+            <a href={item.href} target="_blank">{item.text}</a>
           </li>
         ))}
       </ul>

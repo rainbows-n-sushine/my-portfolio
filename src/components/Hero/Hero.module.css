@@ -5,11 +5,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap:10%;
   margin: 49px 10% 0;
   z-index: 1;
   flex-wrap: wrap;
 }
-
+.imageWrapper{
+  margin-right: 5%;
+}
 .content {
   display: flex;
   flex-direction: column;
@@ -114,6 +117,12 @@
     width: 60%;
     margin: 20px auto;
   }
+  
+
+.imageWrapper:hover .hoverText {
+  opacity: 1;
+  left: -60px;
+}
 }
 
 /* Heart animation */
