@@ -51,7 +51,7 @@ export const Hero = () => {
             className={styles.heart}
             style={{ left: heart.x, top: heart.y }}
           >
-            ❤️
+            🚀
           </span>
         ))}
       </div>
