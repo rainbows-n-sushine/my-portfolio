@@ -81,3 +81,15 @@
   padding: 4px 20px;
   margin-left:42px;
 }
+
+
+@media screen and (max-width: 830px){
+  .container{
+    flex: 0 0 auto;
+    width: 80vw; /* or any fixed width */
+    scroll-snap-align: start;
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+}
