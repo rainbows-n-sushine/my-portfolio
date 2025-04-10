@@ -24,7 +24,7 @@ export const Hero = () => {
           />
         </h1>
         <p className={styles.description}>
-  I'm a full-stack developer with 3 years of hands-on experience working with the MERN stack. 
+  I'm a full-stack developer with almost 3 years of hands-on experience working with the MERN stack. 
   I've built everything from custom systems to feature-rich applications, both from scratch and on top of existing codebases. 
   I'm always excited to collaborate, solve real problems, and bring new ideas to life—feel free to reach out!
 </p>

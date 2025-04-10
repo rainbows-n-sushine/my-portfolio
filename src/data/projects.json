@@ -2,24 +2,24 @@
   {
     "title": "Berso",
     "imageSrc": "projects/berso.jpg",
-    "description": "This is a mobile app I collaborated and developed for local businesses that serve as a review and recomendations platform to enhance visibility for small businesses",
-    "skills": ["React native","expo", "tailwind", "figma", "Node", "Express","MongoDB", "Mobile app development", "UI/UX design", "MERN stack","System Documentation"],
+    "description": "Berso is a platform built for Ethiopia, similar to Yelp, designed to help users discover and rate local businesses. The app integrates Google Maps API to easily search for businesses, rate them, and help small businesses gain visibility. It serves as a review and recommendations platform to enhance the discoverability of small businesses across the region.",
+    "skills": ["React Native", "Expo", "Tailwind", "Figma", "Node", "Express", "MongoDB", "Mobile App Development", "UI/UX Design", "MERN Stack", "System Documentation", "Google Maps API"],
     "demo": "https://www.example.com",
     "source": "https://github.com/jaddis53/Berso.git"
   },
   {
     "title": "Zewd Management System",
     "imageSrc": "projects/zewd.jpg",
-    "description": "A student and employee management system custom built for a Zewd multimedia PLC/ Zewd Academy",
-    "skills": ["React",  "Node", "Express","MongoDB","Web app","Figma","Custom system","MERN stack", "System Documentation"],
+    "description": "A role-based dashboard created for employees at Zewd to manage student and employee information. It includes user authentication, CRUD operations for both student and employee records, an attendance module, and student report module",
+    "skills": ["React", "Node", "Express", "MongoDB", "Web App", "Figma", "Role-Based Management", "MERN Stack", "System Documentation", "User Authentication", "CRUD Operations", "Attendance Management"],
     "demo": "https://www.example.com",
     "source": "https://github.com/internship-zewd/SMS-final.git"
   },
   {
     "title": "Merit Learning Management System",
     "imageSrc": "projects/merit.svg",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "A Learning Management System (LMS) that includes user management, authentication, course management, and payment integration via Chapa. The project also utilizes Cloudinary for image and media storage.",
+    "skills": ["MERN Stack", "MongoDB", "React", "Vite", "Express", "Node", "Redux Toolkit", "Payment Integration (Chapa)", "Cloudinary", "User Management", "Course Management", "System Documentation"],
     "demo": "https://lms-zqht.onrender.com",
     "source": "https://github.com/rainbows-n-sushine/LMS.git"
   }
