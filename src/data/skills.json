@@ -8,7 +8,11 @@
     "imageSrc": "skills/expo.svg"
   },
   {
-    "title": "Node",
+    "title": "Redux toolkit",
+    "imageSrc": "skills/redux.png"
+  },
+  {
+    "title": "Node.js",
     "imageSrc": "skills/node.png"
   },
   {
@@ -30,6 +34,10 @@
   {
     "title": "CSS",
     "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind.png"
   },
   {
     "title": "Figma",
