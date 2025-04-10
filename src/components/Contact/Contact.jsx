@@ -52,11 +52,6 @@ export const Contact = () => {
             alt: "Email icon",
             text: "jayaddisu@gmail.com",
             href: "mailto:jayaddisu@gmail.com",
-          },{
-            icon: "contact/emailIcon.png",
-            alt: "Email icon",
-            text: "jalaladdisu@gmail.com",
-            href: "mailto:jalaladdisu@gmail.com",
           },
           {
             icon: "contact/linkedinIcon.png",

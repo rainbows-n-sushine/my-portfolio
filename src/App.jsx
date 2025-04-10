@@ -7,14 +7,16 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
 
 function App() {
-  return (
+  return (<div className={styles.all}>
+    <Navbar/>
     <div className={styles.App}>
-      <Navbar />
+   
       <Hero />
       <About />
       <Experience />
       <Projects />
       <Contact />
+    </div>
     </div>
   );
 }
