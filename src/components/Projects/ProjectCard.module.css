@@ -6,11 +6,12 @@
   border-radius: 25px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
+  padding: 18px 20px;
+  margin-bottom: 20px;
   width: 250px;
   transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), 
               box-shadow 0.4s ease, 
-              background 0.4s ease; /* Smooth transition */
+              background 0.4s ease; 
 }
 
 /* Darkens the card on hover */
@@ -34,6 +35,7 @@
   margin-top: 6px;
   font-size: 15px;
   font-weight: 400;
+  margin:30px auto;
 }
 
 .skills {
@@ -44,8 +46,6 @@
   flex-wrap:wrap;
   gap: 6px;
   list-style: none;
-  /* justify-content: space-around;
-  gap:0.6em; */
 }
 
 .skill {
@@ -65,6 +65,7 @@
   align-items: center;
   justify-content: flex-end;
   gap:1em;
+
   
 }
 
@@ -79,7 +80,8 @@
   border-radius: 10px;
   background: var(--color-primary);
   padding: 4px 20px;
-  margin-left:42px;
+  margin-left:47px;
+  width:180px;
 }
 
 
@@ -90,6 +92,11 @@
     scroll-snap-align: start;
     padding: 20px;
     border-radius: 10px;
+    height:800px
     
+  }
+  .link{
+    margin-left:89px;
+  width:200px;
   }
 }
