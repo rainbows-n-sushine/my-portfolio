@@ -22,5 +22,13 @@
     "skills": ["MERN Stack", "MongoDB", "React", "Vite", "Express", "Node", "Redux Toolkit", "Payment Integration (Chapa)", "Cloudinary", "User Management", "Course Management", "System Documentation"],
     "demo": "https://lms-zqht.onrender.com",
     "source": "https://github.com/rainbows-n-sushine/LMS.git"
+  },
+  {
+    "title": "Arc digital Landing page",
+    "imageSrc": "projects/arc.png",
+    "description": "I created this landing page for Arc Digital Marketing Agency with a focus on clean design, smooth animations, and a layout that feels both modern and easy to navigate. The goal was to capture the creative vibe of the brand while keeping things simple and user-friendly. It’s fully responsive and built to make a great first impression on any device. I really enjoyed bringing their vision to life and making sure the final result looked great and performed well.",
+    "skills": [ "React", "Vite", "Tailwind", "Landing page"],
+    "demo": "https://arc-digital-1.onrender.com",
+    "source": "git@github.com:rainbows-n-sushine/Arc-digital.git"
   }
 ]
