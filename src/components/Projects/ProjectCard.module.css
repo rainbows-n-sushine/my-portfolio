@@ -92,7 +92,9 @@
     scroll-snap-align: start;
     padding: 20px;
     border-radius: 10px;
-    height:800px
+    height:1000px;
+    overflow-y: hidden;
+    
     
   }
   .link{
