@@ -18,8 +18,8 @@
   {
     "title": "Merit Learning Management System",
     "imageSrc": "projects/merit.svg",
-    "description": "A Learning Management System (LMS) that includes user management, authentication, course management, and payment integration via Chapa. The project also utilizes Cloudinary for image and media storage.",
-    "skills": ["MERN Stack", "MongoDB", "React", "Vite", "Express", "Node", "Redux Toolkit", "Payment Integration (Chapa)", "Cloudinary", "User Management", "Course Management", "System Documentation"],
+    "description": "A Learning Management System (LMS) that includes user management, authentication, course management, and payment integration via Chapa.",
+    "skills": ["MERN Stack", "MongoDB", "React", "Vite", "Express", "Node", "Redux Toolkit", "Payment Integration (Chapa)", "Cloudinary", "User Management", "Course Management"],
     "demo": "https://lms-zqht.onrender.com",
     "source": "https://github.com/rainbows-n-sushine/LMS.git"
   },
