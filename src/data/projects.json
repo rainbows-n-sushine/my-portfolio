@@ -12,7 +12,7 @@
     "imageSrc": "projects/zewd.jpg",
     "description": "A role-based dashboard created for employees at Zewd to manage student and employee information. It includes user authentication, CRUD operations for both student and employee records, an attendance module, and student report module",
     "skills": ["React", "Node", "Express", "MongoDB", "Web App", "Figma", "Role-Based Management", "MERN Stack", "System Documentation", "User Authentication", "CRUD Operations", "Attendance Management"],
-    "demo": "https://www.example.com",
+    "demo": "https://sms-final-ptgj.onrender.com/",
     "source": "https://github.com/internship-zewd/SMS-final.git"
   },
   {
